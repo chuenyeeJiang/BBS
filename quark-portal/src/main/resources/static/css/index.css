@@ -1,0 +1,331 @@
+.top-set {
+    background-image: -webkit-linear-gradient(90deg, #e6a23c 50%, rgb(57, 55, 56) 50%);
+    width: 30px;
+    height: 50px;
+    position: relative;
+    bottom: 25px;
+}
+
+.foot {
+    position: relative;
+    background-color: rgb(57, 55, 56);
+    bottom: 0px;
+    height: 50px
+}
+
+.area {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+
+.font-yellew {
+    font-size: 24px;
+    color: #ffb83f;
+    display: inline-block;
+}
+
+
+.font-white {
+    color: white;
+}
+
+.team-title {
+    color: white;
+    position: relative;
+    left: 0;
+    top: -50px;
+}
+
+
+.donut {
+    border: 5px solid #ffb83f;
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    background: #0c669e;
+}
+
+.donut-ring-container {
+    position: absolute;
+    top: 0;
+}
+
+.donut-ring-container-left {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    top: 40px;
+    left: 30px;
+}
+
+.donut-ring-container-right {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    left: -50px;
+    margin-top: 40px;
+}
+
+.donut-num {
+    color: white;
+    font-family: open;
+    text-align: center;
+    text-shadow: 4px 5px 0 #a5772a;
+    position: absolute;
+    font-style: italic;
+    font-weight: 500;
+    top: 30px;
+    width: 100%;
+    left: -5px;
+}
+
+.donut-tag {
+    color: white;
+    font-family: open;
+    text-align: center;
+    position: absolute;
+    font-style: italic;
+    font-weight: 500;
+    width: 100%;
+    left: -5px;
+}
+
+.donut-ring {
+    transform-origin: 50%;
+    -webkit-transform-origin: 50%;
+    transition: all 10s;
+    -webkit-transition: all 10s;
+    transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+}
+
+.donut-ring-left {
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+}
+
+.donut-ring-right {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.color-warning.donut .donut-tag {
+    color: #e6a23c;
+}
+
+.data-loading-key div {
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.data-loading-value div {
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.data-loading-value .data-1 {
+    color: #7447ae;
+}
+
+.data-loading-value .data-2 {
+    color: #37a7ff;
+}
+
+.data-loading-value .data-3 {
+    color: #ff2a75;
+}
+
+.data-loading-value .data-4 {
+    color: #ffbe61;
+}
+
+.line:before {
+    content: "";
+    background-color: #adadad;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    top: 31px;
+}
+
+.line {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    font-size: 42px;
+    color: #333;
+}
+
+.product-img {
+    height: 300px;
+    width: 500px;
+    position: relative
+}
+
+.product-title {
+    margin-top: 0;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: white;
+    width: 200px;
+    text-align: center;
+    background-color: wheat;
+}
+
+.product-desc {
+    height: 300px;
+    width: 200px;
+}
+
+@media all  and (min-width: 1390px) {
+    .product-desc {
+        margin-left: 25% !important;
+        position: relative !important;
+    }
+
+    /*.product .center-vertical:first-of-type {*/
+        /*padding: 0 16.66666667%;*/
+    /*}*/
+}
+
+
+.product-container {
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0;
+}
+
+.product {
+    height: 500px
+}
+
+.product-date {
+    line-height: 30px;
+    font-size: 13px;
+    color: #999999;
+}
+
+.product-date span:first-of-type {
+    font-size: 17px;
+    margin-right: 10px;
+    color: black;
+}
+
+.product-developer {
+    line-height: 30px;
+    color: #999999;
+    font-size: 13px;
+    overflow: hidden;
+    display: inline-block;
+    width: 200px;
+}
+
+
+
+.product-developer span:first-of-type {
+    margin-right: 10px;
+    font-size: 17px;
+    color: black;
+}
+
+.product-tag {
+    font-size: 13px;
+    line-height: 30px;
+    margin-bottom: 80px;
+    color: #999999;
+}
+
+.product-tag span:first-of-type {
+    font-size: 17px;
+    margin-right: 10px;
+    color: black;
+}
+
+.line:after {
+    top: 0px;
+    width: 300px;
+    margin-left: -192px;
+    height: 50px;
+    content: "";
+    background: white;
+    position: absolute;
+    text-align: center;
+    z-index: -1;
+}
+
+.punctuation-underline {
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.punctuation-underline:before {
+    content: "";
+    width: 20px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 0;
+    background: #f8c80f;
+    margin: 10px auto;
+    z-index: 2;
+}
+
+.desc-btn {
+    height: 20px;
+}
+
+
+.product-area-head {
+    background-color: rgb(57, 55, 56);
+    width: 100%;
+    height: 50px;
+    top: 0;
+    /*padding: 10px 0 0 10px;*/
+    box-sizing: border-box;
+}
+
+.product:nth-of-type(even) {
+    background-color: #fcfcfc;
+    filter: brightness(0.95);
+}
+
+.team {
+    background-color: rgb(57, 55, 56);
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.team-content {
+    height: 200px;
+}
+
+.team-join-content {
+    height: 200px;
+}
+
+.team-desc textarea {
+    resize: inherit;
+    height: 100px;
+}
+
+@import "/webjars/element-ui/2.7.2/lib/theme-chalk/index.css";
+.team-desc {
+    height: fit-content !important;
+}
+
+.team-create-submit {
+    margin-top: 10px;
+    width: 276px;
+    bottom: 0;
+    position: absolute
+}
